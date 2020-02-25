@@ -1,14 +1,14 @@
 
 body {
 	display: block;
-	background-color: : #fff;
-	border: 24px #16161a solid;
+	border: 24px #0C0C10 solid;
 	color: #616266;
 	font-family: 'Inter', sans-serif;
 	font-size: 24px;
 	font-size: 1.5em;
-	margin: auto;
-	text-rendering: optimizeLegibility;
+	line-height: 1.5em;
+	margin: 0;
+	padding: 0;
 }
 
 
@@ -47,7 +47,86 @@ body {
 
 
 
-/* TEXTOS: TEMA LIGHT */
+/* CONTAINERS */
+
+ .navbar.container {
+	margin: auto;
+	max-width: 60rem;
+	padding: 2.5rem 0;
+ }
+
+
+
+ .hero {
+	margin: auto;
+	max-width: 48rem;
+	padding: 10rem 0;
+ }
+
+
+
+ .hero.container {
+ 	padding: 
+ }
+
+
+
+ .contribuicoes {
+ 	margin: auto;
+ 	max-width: 48rem;
+	padding: 0 0 6rem;
+ }
+
+
+
+ .contribuicoes.wrapper {
+ 	padding-bottom: 3rem;
+ }
+
+
+
+ .contato {
+ 	align-content: center;
+ 	background-color: #0C0C10;
+ }
+
+
+
+ .contato-container {
+ 	display: flex;
+ 	align-items: center;
+	background-color: #0C0C10;
+	height: 100vh;
+	justify-content: center;
+	margin: auto;
+	max-width: 48rem;
+ }
+
+
+
+ .contato-wrapper {
+ 	display: block;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+ 
+
+
+ .email-wrapper {
+ 	padding: 6rem 0;
+ }
+
+
+ .social-wrapper {
+ 	display: flex;
+ 	align-content: flex-end;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+
+
+
+/* TEXTOS: LIGHT */
 
  h1 {
   	display: block;
@@ -62,7 +141,16 @@ body {
 	text-align: left;
  }
 
-
+ .h4-eyebrow {
+ 	display: block;
+ 	color: #212126;
+ 	font-family: 'Inter', sans-serif;
+ 	font-size: 14px;
+ 	font-size: 0.875rem;
+ 	font-weight: 700;
+ 	letter-spacing: 0.1em;
+ 	margin: 0;
+ }
 
  .link {
 	box-shadow: 0 1px 0 0 #212126;
@@ -95,13 +183,13 @@ body {
  .paragraph {
  	display: block;
 	font-size: 24px;
-	font-size: 1,5rem;
+	font-size: 1.5rem;
 	letter-spacing: -0.03em;
 	line-height: 1.7em;
  }
 
 
- .paragraph-descricao {
+ .paragraph.descricao {
  	font-size: 20px;
  	font-size: 1.25rem;
  	letter-spacing: -0.03em;
@@ -111,30 +199,41 @@ body {
 
 
 
-/* TEXTOS: TEMA DARK */
+/* TEXTOS: DARK */
 
  .h1.dark {
  	color: #fff;
+ 	text-align: center;
+ }
+
+
+ .h2.email {
+ 	letter-spacing: -0.03em;
+ 	text-align: center;
  }
 
 
 
  .link.dark {
-	box-shadow: 0 1px 0 0 #fff;
+	box-shadow: 0 2px 0 0 #fff;
 	color: #fff;
-	padding-bottom: 8px;
+	font-size: 32px;
+	font-size: 2rem;
+	font-weight: 700;
+	padding-bottom: 8px;	
  }
 
  
 
  .link.dark:hover {
-	box-shadow: 0 4px 0 0 #fff;
+	box-shadow: 0 8px 0 0 #fff;
  }
 
 
 
- .paragraph-dark {
+ .paragraph.dark {
 	color: #dadce5;
+	text-align: center;
  }
 
 
@@ -143,7 +242,7 @@ body {
 
  .mailto-link {
 	color: #fff;
-	padding: 8px 0;
+	padding: 40px 0;
 	position: relative;
 	text-decoration: none;
  }
@@ -162,12 +261,14 @@ body {
  	left: 50%;
  	width: auto;
  	background-color: black;
- 	border-radius: 2px;
-	color: #fff
-	;
-	font-size: 12px;
+ 	border-radius: 6px;
+	color: #fff;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: 400;
+	letter-spacing: 0;
 	margin-bottom: -5px;
-	padding: 2px 6px;
+	padding: 4px 20px;
 	position: absolute;
 	transform: translate(-50%, -100%);
 	-webkit-transform: translate(-50%, -100%);
@@ -180,77 +281,6 @@ body {
  }
 
 
- 
-/* CONTAINERS */
-
- .nav-container {
-	margin: auto;
-	max-width: 940px;
-	padding: 4vh 0;
- }
-
-
-
- .hero {
-	display: flex;
-	align-items: center;
-	height: 72vh;
-	justify-content: center;
-	margin: 0 28vw;
-	width: auto;
- }
-
-
-
- .contribuicoes {
- 	display: flex;
-	align-items: center;
-	height: auto;
-	justify-content: space-between;
-	margin: 0 28vw;
-	width: auto;
- }
-
-
-
- .contribuicoes-container {
- 	margin-bottom: 6em;
- }
-
-
- .contribuicoes-wrapper {
- 	padding-bottom: 2em;
- }
-
-
-
- .contato {
- 	background-color: #16161a;
- }
-
-
-
- .contato-container {
- 	display: block;
-	align-items: center;
-	background-color: #16161a;
-	height: auto;
-	justify-content: space-between;
-	margin: 0 28vw;
-	padding-top: 7em;
-	padding-bottom: 8em;
-	width: auto;
- }
-
-
-
- .social-wrapper {
- 	display: flex;
-	justify-content: space-between;
-	margin-top: 12em;
- }
-
-
 
 /* @MEDIA: MOBILE */
 
@@ -260,6 +290,8 @@ body {
 		border-width: 0px;
 	}
 
+
+
 	h1 {
 		font-size: 20px;
 		font-size: 1,25em;
@@ -268,8 +300,8 @@ body {
 
 
 	.navbar {
-		margin: 0vh 8vw;
-		padding: 24px 0px;
+		margin: auto;
+		padding: 1rem 0;
 	}
 
 
@@ -345,6 +377,8 @@ body {
 		line-height: 1.7em;
 	}
 
+
+
 	.paragraph-descricao {
 		font-size: 16px;
 		font-size: 1em;
@@ -360,5 +394,4 @@ body {
 		letter-spacing: 0.2em;
 	}
  }
-
 
