@@ -26,6 +26,7 @@ body {
  	font-style: normal;
  	font-weight: 400;
  	src: url('../fonts/Inter-Regular.woff') format('woff');
+ 	font-display: swap;
  }
 
 
@@ -34,6 +35,7 @@ body {
  	font-style: normal;
  	font-weight: 500;
  	src: url('../fonts/Inter-Medium.woff') format('woff');
+ 	font-display: swap;
  }
 
 
@@ -42,6 +44,7 @@ body {
  	font-style: normal;
  	font-weight: 700;
  	src: url('../fonts/Inter-Bold.woff') format('woff');
+ 	font-display: swap;
  }
 
 
@@ -50,6 +53,7 @@ body {
  	font-style: normal;
  	font-weight: 900;
  	src: url('../fonts/GT-America-Expanded-Black.woff') format('woff');
+ 	font-display: swap;
  }
 
 
