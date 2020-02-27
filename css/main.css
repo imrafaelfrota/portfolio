@@ -89,6 +89,28 @@ body {
 
 
 
+ .mencoes {
+ 	margin: auto;
+	max-width: 48rem;
+	padding: 0 0 10rem;
+ }
+
+
+
+ .artigos {
+ 	margin: auto;
+	max-width: 48rem;
+	padding: 0 0 10rem;
+ }
+
+
+
+ .artigos-wrapper {
+ 	padding-bottom: 3rem;
+ }
+
+
+
  .contato {
  	display: flex;
  	align-content: center;
@@ -155,6 +177,21 @@ body {
 	text-align: left;
  }
 
+
+
+ .h2.artigo {
+ 	display: block;
+	color: #212126;
+	font-size: 24px;
+	font-size: 1.5rem;
+	font-weight: 900;
+	letter-spacing: 0;
+	margin-bottom: 8px;
+	margin-bottom: 0;
+ }
+
+
+
  .h4-eyebrow {
  	display: block;
  	color: #212126;
@@ -165,6 +202,8 @@ body {
  	letter-spacing: 0.1em;
  	margin: 0;
  }
+
+
 
  .link {
 	box-shadow: 0 1px 0 0 #212126;
@@ -183,6 +222,20 @@ body {
 
  .link.bold {
  	font-weight: 700;
+ }
+
+
+
+ .link.mencao {
+ 	font-size: 18px;
+ 	font-size: 1.125rem;
+ 	font-weight: 500;
+ }
+
+
+
+ .link.mencao:hover {
+	box-shadow: 0 4px 0 0 #212126;
  }
 
 
@@ -208,13 +261,19 @@ body {
  .paragraph.descricao {
  	font-size: 20px;
  	font-size: 1.25rem;
- 	letter-spacing: -0.03em;
- 	line-height: 1.7em;
  	margin-top: 0.5em;
  }
 
 
-/* textos cark */
+ .paragraph.mencao {
+ 	font-size: 18px;
+ 	font-size: 1.125rem;
+ 	margin-top: 0.2em;
+ 	margin-bottom: 0.2em;
+ }
+
+
+/* textos dark */
 
  .h2.email {
  	letter-spacing: -0.03em;
@@ -224,7 +283,7 @@ body {
 
 
  .link.dark {
-	box-shadow: 0 2px 0 0 #fff;
+	box-shadow: 0 3px 0 0 #fff;
 	color: #fff;
 	font-size: 32px;
 	font-size: 2rem;
@@ -299,6 +358,18 @@ body {
 
 
 
+ 	.h2.artigo {
+		margin-bottom: 0;
+	}
+
+
+
+ 	.paragraph.mencao {
+ 		line-height: 1.5em;
+ 	}
+
+
+
  	.navbar {
  		border-top: 8px #0C0C10 solid;
  	}
@@ -330,6 +401,33 @@ body {
 	.contribuicoes.wrapper {
 		padding-bottom: 2.5rem;
 	}
+
+
+
+	.mencoes {
+		max-width: 32rem;
+		padding: 0 0 10rem;
+	}
+
+
+
+	.mencoes-wrapper {
+		padding-bottom: 0.5rem;
+	}
+
+
+
+	.artigos {
+		margin: auto;
+		max-width: 32rem;
+		padding: 0 0 10rem;
+	}
+
+
+
+ 	.artigos-wrapper {
+ 		padding-bottom: 2rem;
+ 	}
 
 
 
@@ -365,10 +463,26 @@ body {
 
 
 
+	.h2.artigo {
+		font-size: 20px;
+		font-size: 1.25rem;
+		line-height: 1.5em;
+		margin-bottom: 0;
+	}
+
+
+
 	.h2.email {
 		font-size: 18px;
 		font-size: 1.125rem;
 		letter-spacing: 0;
+	}
+
+
+
+	.h4-eyebrow {
+		font-size: 12px;
+		font-size: 0.75rem;
 	}
 
 
@@ -389,9 +503,25 @@ body {
 
 
 
+	.paragraph.mencao {
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1.5em;
+	}
+
+
+
 	.link.dark {
 		font-size: 16px;
 		font-size: 1rem;
+	}
+
+
+
+	.link.mencao {
+		font-size: 16px;
+		font-size: 1rem;
+		line-height: 1.5em;
 	}
 
 
@@ -401,6 +531,7 @@ body {
 		font-size: 1.125rem;
 		line-height: 1.5em;
 	}
+
 
 
 
@@ -441,6 +572,33 @@ body {
 	.contribuicoes.wrapper {
 		padding-bottom: 2.5rem;
 	}
+
+
+
+	.mencoes {
+		max-width: 18rem;
+		padding: 0 0 8rem;
+	}
+
+
+
+	.mencoes-wrapper {
+		padding-bottom: 0.5rem;
+	}
+
+
+
+	.artigos {
+		margin: auto;
+		max-width: 18rem;
+		padding: 0 0 8rem;
+	}
+
+
+
+ 	.artigos-wrapper {
+ 		padding-bottom: 2rem;
+ 	}
 
 
 
